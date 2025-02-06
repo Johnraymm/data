@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Anonymous</title> 
+    <link rel="stylesheet" href="style.css" /> 
+    <script src="script.js"></script>
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "vEmkKytKnpzjdOkdu",
+      });
+   })();
+</script>
+
+</head>
+
+<body> 
+
+    <div id="bg1"> 
+    <h1>test</h1> 
+    </div> 
+
+    <textarea id="msg" name="msg" rows="10" cols="33" placeholder="Write with your heart..." oninput="toggleButton()"></textarea>
+
+<br> 
+
+   <div id="buttondiv"> 
+    <button class="buttonhold" onclick="SendMail()">Send</button>
+   </div> 
+
+<br>
+
+   <div id="bv1">
+    <h3>Proverbs 18:20-21</h3>
+    <p>From the fruit of their mouth a person’s stomach is filled; with the harvest of their lips they are satisfied. The tongue has the power of life and death, and those who love it will eat its fruit.</p>
+   </div>
+
+</body> 
+</html>
