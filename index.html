@@ -6,7 +6,12 @@
     <title>Anonymous</title> 
     <link rel="stylesheet" href="style.css" /> 
     <script src="script.js"></script>
-
+<script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+</script>
+    
 <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
 </script>
@@ -24,7 +29,7 @@
 <body> 
 
     <div id="bg1"> 
-    <h1>Test</h1> 
+    <h1>TEST</h1> 
     </div> 
 
     <textarea id="msg" name="msg" rows="10" cols="33" placeholder="Write with your heart..." oninput="toggleButton()"></textarea>
